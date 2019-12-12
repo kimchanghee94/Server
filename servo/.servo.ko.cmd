@@ -1,0 +1,1 @@
+cmd_/home/pi/Desktop/workspace/team_project/final_project/servo/servo.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/Desktop/workspace/team_project/final_project/servo/servo.ko /home/pi/Desktop/workspace/team_project/final_project/servo/servo.o /home/pi/Desktop/workspace/team_project/final_project/servo/servo.mod.o ;  true
